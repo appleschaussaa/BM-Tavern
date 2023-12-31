@@ -1,6 +1,7 @@
 // import { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { Grid, Box } from "@mui/material";
+import { Box } from "@mui/material";
+import Grid from "@mui/material/Unstable_Grid2";
 import { ThemeProvider } from "@mui/material";
 import theme from "./utils/Theme";
 import HomePage from "./pages/HomePage";
