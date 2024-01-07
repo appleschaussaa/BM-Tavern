@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Typography, Box } from "@mui/material";
+import Grid from "@mui/material/Unstable_Grid2";
 import SwipeableTextMobileStepper from "../../components/Reusable/CardGridList";
 
 const Section3 = () => {
@@ -13,7 +14,7 @@ const Section3 = () => {
                 // height: "100%",
             }}
         >
-            <Typography variant="h3" component="h3" sx={{ flexGrow: 1 , justifyContent: "center", }}>
+            <Typography variant="h4" sx={{ flexGrow: 1 , justifyContent: "center", }}>
                 Section 3 - Products
             </Typography>
             <SwipeableTextMobileStepper />

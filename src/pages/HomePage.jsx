@@ -27,19 +27,19 @@ const HomePage = () => {
                 <Grid
                     xs={8}
                     // rowHeight={1}
-                    sx={{ justifyContent: "center", border: "1px solid black" }}
+                    // sx={{ justifyContent: "center", border: "1px solid black" }}
                 >
                     <Section1 />
                 </Grid>
                 <Grid
                     xs={4}
-                    sx={{ justifyContent: "center", border: "1px solid red" }}
+                    // sx={{ justifyContent: "center", border: "1px solid red" }}
                 >
                     <Section2 />
                 </Grid>
                 <Grid
                     xs={12}
-                    sx={{ justifyContent: "center", border: "1px solid black" }}
+                    // sx={{ justifyContent: "center", border: "1px solid black" }}
                     // height={323}
                     // disableEqualOverflow
                 >
@@ -52,7 +52,7 @@ const HomePage = () => {
                     sx={{
                         justifyContent: "center",
                         // height: "400px",
-                        border: "1px solid black",
+                        // border: "1px solid black",
                         // backgroundImage: `url(${HuskiesBackground})`,
                         // backgroundSize: 'cover',
                         // backgroundRepeat: 'no-repeat',
@@ -63,13 +63,13 @@ const HomePage = () => {
                 </Grid>
                 <Grid
                     xs={12}
-                    sx={{ justifyContent: "center", border: "1px solid red" }}
+                    // sx={{ justifyContent: "center", border: "1px solid red" }}
                 >
                     <Section5 />
                 </Grid>
                 <Grid
                     xs={12}
-                    sx={{ justifyContent: "center", border: "1px solid black" }}
+                    // sx={{ justifyContent: "center", border: "1px solid black" }}
                 >
                     <Section6 />
                 </Grid>

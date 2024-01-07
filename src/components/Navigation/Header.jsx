@@ -57,6 +57,8 @@ function ResponsiveAppBar() {
                 // alignContent: "right",
                 backgroundColor: "#2e293a",
                 color: "#C79900",
+                mt: 0.5,
+                borderRadius: 2,
             }}
         >
             <Grid
@@ -129,7 +131,6 @@ function ResponsiveAppBar() {
                         </MenuItem>
                     ))}
                 </Menu>
-                <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
                 <Box
                     sx={{
                         flexGrow: 1,

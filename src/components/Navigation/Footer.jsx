@@ -8,8 +8,8 @@ const Footer = () => {
                 flexDirection: "column",
                 alignItems: "center",
                 justifyContent: "center",
-                backgroundColor: "primary.main",
-                color: "white",
+                backgroundColor: "#2e293a",
+                color: "#C79900",
                 height: 35,
                 // width: "100%",
                 // marginTop: "auto",
@@ -19,6 +19,8 @@ const Footer = () => {
                 border: 2,
                 borderBottom: 0,
                 borderColor: "#ffff",
+                borderRadius: 2,
+                mb: 0.5,
             }}
         >
             <Typography variant="body1" sx={{ textAlign: "center" }}>

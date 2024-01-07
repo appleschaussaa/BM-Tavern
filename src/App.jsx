@@ -23,19 +23,20 @@ function App() {
                 >
                     <Grid
                         container
+                        spacing={1}
                         sx={{
                             height: "100%",
                             justifyContent: "center",
                             alignItems: "center",
                         }}
                     >
-                        <Grid xs={12}>
+                        <Grid xs={8}>
                             <ResponsiveAppBar />
                         </Grid>
                         <Grid xs={12}>
                             <HomePage />
                         </Grid>
-                        <Grid xs={12}>
+                        <Grid xs={6}>
                             <Footer />
                         </Grid>
                     </Grid>
