@@ -7,10 +7,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
         <App
         // minwidth="xl"
-            // sx={{
-            //     height: "100vh",
-            //     width: "100vh",
-            // }}
+            sx={{
+                // minHeight: "100%",
+                // minWidth: "100%",
+                // m: 0,
+            }}
         />
     </React.StrictMode>
 );

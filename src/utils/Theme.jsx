@@ -23,9 +23,12 @@ const theme = createTheme({
         // },
     },
     // palette: {
+        //  foresst green, white and brick brown
         primary: {
-            main: "",
-            secondary: "",
+            // Husky Purple
+            main: "#39275B",
+            // Husky Gold
+            secondary: "#C79900",
             light: "",
         },
         background: {

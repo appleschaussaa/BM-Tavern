@@ -5,26 +5,40 @@ import ImageListItem from "@mui/material/ImageListItem";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
 import IconButton from "@mui/material/IconButton";
 import InfoIcon from "@mui/icons-material/Info";
+// import OakBarBackground from "../../images/wood-background.jpg";
 
 export default function MasonryImageList() {
     return (
-        <Box sx={{ width: "100%", overflowX: "scroll" }}>
+        <Box
+            sx={{
+                width: "100%",
+            }}
+        >
             <ImageList
                 variant="masonry"
                 cols={1}
                 row={2}
-                // rowHeight={164}
                 gap={8}
-                sx={{ display: "flex", flexWrap: "nowrap" }}
+                sx={{ display: "flex", 
+                // flexWrap: "nowrap",
+                px: 2,
+            }}
             >
                 {itemData.map((item) => (
-                    <ImageListItem key={item.img} sx={{ flex: "0 0 auto" }}>
+                    <ImageListItem key={item.img} sx={{ flex: "0 0 auto",  position: 'relative' }}>
                         <img
                             srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
                             src={`${item.img}?w=248&fit=crop&auto=format`}
                             alt={item.title}
                             loading="lazy"
-                            
+                            style={{
+                                // position: 'absolute',
+                                // top: 0,
+                                // left: 0,
+                                width: '200px',
+                                height: '250px',
+                                objectFit: 'cover',
+                              }}
                         />
                         <ImageListItemBar
                             title={item.title}
@@ -44,7 +58,7 @@ export default function MasonryImageList() {
         </Box>
     );
 }
-  
+
 const itemData = [
     {
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStUTBU0YCRq7hqXVLdz0AepKLh00LKbyDWoQ&usqp=CAU",

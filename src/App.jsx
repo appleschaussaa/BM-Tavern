@@ -1,6 +1,6 @@
 // import { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { Box } from "@mui/material";
+import { Box, Container } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2";
 import { ThemeProvider } from "@mui/material";
 import theme from "./utils/Theme";
@@ -12,11 +12,13 @@ function App() {
     return (
         <ThemeProvider theme={theme}>
             <Router>
-                <Box
+                <Container
                     sx={{
                         border: "1px solid black",
-                        minHeight: "100%",
+                        // minHeight: "100%",
                         minWidth: "100%",
+                        m: 0,
+                        backgroundColor: "lightgrey",
                     }}
                 >
                     <Grid
@@ -37,7 +39,7 @@ function App() {
                             <Footer />
                         </Grid>
                     </Grid>
-                </Box>
+                </Container>
             </Router>
         </ThemeProvider>
     );
